@@ -1,0 +1,143 @@
+* {
+    font-family: cursive;
+  }
+  
+  body {
+    width: 100%;
+    margin: 0;
+  }
+  
+  /* Nav bar styling */
+  nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(139, 219, 219);
+  }
+  
+  .nav__left > h1 {
+    color: rgb(141, 39, 39);
+    text-shadow: 2px 2px #750707;
+    float: left;
+    padding: 20% 0 0 40%;
+  }
+  
+  .nav__right {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-left: 70%;
+  }
+  
+  nav a {
+    text-decoration: none;
+    padding: 20%;
+    color: grey;
+    font-size: larger;
+  }
+  
+  /* HeadLine styling */
+  h1,
+  h2 {
+    color: rgb(19, 133, 133);
+  }
+  
+  .headText > h2 {
+    padding-left: 5%;
+  }
+  #headLine {
+    text-align: center;
+    font-weight: 900;
+    margin-top: 3%;
+  }
+  
+  /* Image box styling */
+  img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10%;
+  }
+  
+  .img__container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img__box {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    border: 1px solid lightgrey;
+    border-radius: 10%;
+    margin: 3%;
+    justify-content: center;
+  }
+  
+  .img__des {
+    padding: 3%;
+  }
+  
+  /* Form styling */
+  form {
+    width: 90%;
+    margin: 0 0 0 4%;
+    padding: 1%;
+    background-color: rgb(139, 219, 219);
+  }
+  
+  input {
+    width: 100%;
+  }
+  
+  #submit {
+    width: 5%;
+  }
+  
+  /* Contact styling */
+  .contact {
+    margin: 4% 0 0 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-text {
+    margin: 0 15% 1% 0;
+    align-items: center;
+    width: auto;
+  }
+  
+  .contact > a {
+    margin-left: 61%;
+    background-color: black;
+    color: aqua;
+    width: 7%;
+    text-align: center;
+  }
+  
+  footer {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      margin-left: 40px;
+    }
+    input {
+      width: 98%;
+    }
+    #submit {
+      width: 100%;
+    }
+    nav {
+      width: 100%;
+    }
+    .nav__right {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Car Hire</title>
+  </head>
+  <body>
+    <nav>
+    <div class="nav__left">
+     <h1 id="home">VC</h1>
+    </div>
+   <div class="nav__right">
+      <a href="#img__container">Cars</a>
+      <a href="#form">Enquiries</a>
+      <a href="#contact">Contact</a>
+      <!-- <ul>
+        <li>Cars</li>
+        <li>Enquiries</li>
+        <li>Contact</li>
+      </ul> -->
+    </div>
+    </nav>
+
+    <div class="headText">
+    <h1 id="headLine"><strong>Vintage Cars For Hire</strong> </h1>
+    <h2><strong>Listings</strong> </h3>
+    </div>
+
+    <div class="img__container" id="img__container">
+    <div class="img__box">
+      <img src="./img/vintagecar1.jpeg" alt="car1" />
+      <div class="img__des">
+      <h3> Vintage Teal Sedan</h3>
+      <p>Car Type: Sedan</p>
+      <p>Doors: 5</p>
+    </div>
+    </div>
+
+    <div class="img__box">
+      <img src="./img/vintagecar2.jpeg" alt="car1" />
+      <div class="img__des">
+      <h3>Mercedes 300 SL</h3>
+      <p>Car Type: Sedan</p>
+      <p>Doors: 3</p>
+    </div>
+    </div>
+
+    <div class="img__box">
+      <img src="./img/vintagecar3.jpeg" alt="car1" />
+    <div class="img__des">
+
+      <h3>Buick Skylark</h3>
+      <p>Car Type: 2-door convertible</p>
+      <p>Doors: 2 </p>
+    </div>
+    </div>
+
+    <div class="img__box">
+      <img src="./img/vintagecar4.jpeg" alt="car1" />
+      <div class="img__des">
+      <h3>Custom Classic Car</h3>
+      <p>Car Type: Sedan</p>
+      <p>Doors: 3 </p>
+    </div>
+    </div>
+  </div>
+    <div class="enquiries-form">
+      <form id="form">
+        <h1>Enquire about a car</h1>
+        <label for="fullName">Full Name</label>
+        <br>
+        <input type="text" id="fullName" name="fullName" required>
+        <br>
+     
+        <label for="email">Email address</label>
+        <br>
+        <input type="text" id="email" name="email" required>
+        <br>
+        <label for="carType">Choose a car</label>
+        <br>
+        <select name="carType" id="carType">
+          <option value="sedan">Vintage Teal Sedan</option>
+          <option value="mercedes">Mercedes 300 SL</option>
+          <option value="buick">Buick Skylark</option>
+          <option value="custom">Custom Classic Car</option>
+        </select>
+        <br>
+       
+        <label for="comments">Comments</label>
+        <br>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        <br>
+        <input id="submit" type="submit">
+      </form>
+    </div>
+
+    <div id="contact" class="contact">
+      <div class="contact-text">
+     <h1>Contact</h1> 
+     <p>Agency Name: Vintage Cars For Hire</p>
+     <p>Address: 23 Car street, Fitzroy, VIC 3598</p>
+     <p>Phone: 02 3746 2245</p>
+     <p>Email: carhire@gmail.com</p>
+     <p>Location:</p>
+    </div>
+    <br>
+    <br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12610.146132244683!2d144.97041068100117!3d-37.80089997131722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642c0f56a65c1%3A0x5045675218ce790!2sFitzroy%20VIC%203065!5e0!3m2!1sen!2sau!4v1639363920013!5m2!1sen!2sau" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <br>
+      <a href="#home">Back to top</a>
+    </div>
+ <br>
+ <br>
+    <footer>
+      Copyright @YO. All rights reserved 2021
+    </footer>
+  </body>
+</html>
